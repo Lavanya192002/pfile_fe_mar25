@@ -1,0 +1,61 @@
+Bootscrap,Js and react node
+17/03/2025
+
+Steps to create new git repo
+1. Login to github.
+2. Click on + symbol on top right and select new repository.
+3. Enter new repo name.
+4. Give a description .
+5. Make repo public.
+6. Select add read me file.
+7. Click on create repository button.
+
+Heading
+1.Command to download any public repo& git clone 
+https://github.com/Lavanya192002/pfile_fe_mar25
+2. Repo command copies (clones) the git repo from the server (cloud) to the local machine
+Thus ,we get a folder of the repo
+
+& git clone the above command is to check the status of repo with remote repo
+
+& git pull origin <branch name>
+the above command is to check the status of repo with remote repo
+
+& git pull origin main 
+the above command pulls (downloads)the files from the server to the local repo .only the files that which are not updated are  pulled 
+download code from remote repo
+
+heading 
+
+steps to create personal acces token (PAT)
+1. On the top right most corner click on profile icon 
+2. In the  list of option click on settings
+3. In the new window scroll down a bit and click on developer setting 
+4. On left top click on personal acces token select token classic ,In the new window click the button and generate token and select token classic.
+5. In the new window, add the relavant note 
+6. click expire and select no expire.
+7. select the checkbox repo
+8. scroll down fully and click generate
+token
+9. copy the token and mail it to yourself .
+10.  do not save the pat anywhere else.
+
+ Note:-To do operation on our repo from a specific computer the git should recoginze the git account on the system. 
+ To achieve this we have to run the following  two commands  
+& git config ---global user.name "lavanya192002" 
+& git config ---global user.mail "lavanyaskumar011@gmail.com" 
+ 
+  Command to sync are local repo with remote repo
+
+commands to update the remote repo
+W .R.T local repo
+& git add 
+in the above command the git will mark (stage) all the files that need to be updated in the remote repo  W.R.T local repo 
+
+& git commit -m"relavant msg  "
+the above command the git creates the secured object consisting of all the staged files and necesary information
+
+& git push origin main 
+& git push admin
+
+ 
